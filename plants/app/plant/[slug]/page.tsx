@@ -15,7 +15,7 @@ type Params = Promise<{ slug: string }>;
 export default async function PlantPage({ 
   params, 
 }: {
-  params: Promise<Params>;
+  params: Params
 }) {
   const { slug } = await params;
   const plant = getPlantData(slug);

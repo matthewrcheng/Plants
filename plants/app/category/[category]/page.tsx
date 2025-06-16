@@ -12,7 +12,7 @@ type Params = Promise<{ category: string }>;
 export default async function CategoryPage({ 
   params,
 }: {
-  params: Promise<Params>;
+  params: Params;
 }) {
   const { category } = await params;
   const plants = getPlants(category);
