@@ -7,6 +7,10 @@ interface PlantMeta {
   slug: string;
 }
 
+// type Params = Promise<{ category: string }>;
+// { params: Params }
+// const { category } = await params;
+
 export default async function CategoryPage({ params, }: { params: { category: string } }) {
   const plants = getPlants(params.category);
 
