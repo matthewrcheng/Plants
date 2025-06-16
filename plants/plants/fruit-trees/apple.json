@@ -1,0 +1,12 @@
+{
+    "name": "Apple",
+    "latin_name": "Brassica oleracea var. sabellica",
+    "category": "leafy-greens",
+    "description": "Kale is a hardy leafy green vegetable known for its nutrient density.",
+    "uses": {
+        "culinary": "Used in salads, soups, and stews.",
+        "medicinal": "Rich in vitamins and antioxidants.",
+        "aromatic": "None notable."
+    }
+}
+  
