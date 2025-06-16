@@ -1,6 +1,7 @@
 import fs from 'fs';
 import path from 'path';
 import Link from 'next/link';
+import { use } from 'react';
 
 interface PlantMeta {
   name: string;
@@ -9,12 +10,11 @@ interface PlantMeta {
 
 type Params = Promise<{ category: string }>;
 
-export default async function CategoryPage({ 
-  params,
-}: {
-  params: Params;
+export default async function CategoryPage(props: { 
+  params: Params,
 }) {
-  const { category } = await params;
+  const params = use(props.params);
+  const category = params.category;
   const plants = getPlants(category);
 
   return (

@@ -1,5 +1,6 @@
 import fs from 'fs';
 import path from 'path';
+import { use } from 'react';
 
 interface PlantData {
   name: string;
@@ -12,12 +13,11 @@ interface PlantData {
 
 type Params = Promise<{ slug: string }>;
 
-export default async function PlantPage({ 
-  params, 
-}: {
+export default async function PlantPage(props: { 
   params: Params
 }) {
-  const { slug } = await params;
+  const params = use(props.params);
+  const slug = params.slug;
   const plant = getPlantData(slug);
 
   if (!plant) {
