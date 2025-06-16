@@ -9,8 +9,11 @@ interface PlantMeta {
 
 type Params = Promise<{ category: string }>;
 
-export default async function CategoryPage({ params }: { params: Params }) {
-
+export default async function CategoryPage({ 
+  params,
+}: {
+  params: Promise<Params>;
+}) {
   const { category } = await params;
   const plants = getPlants(category);
 
