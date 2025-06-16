@@ -7,17 +7,17 @@ interface PlantMeta {
   slug: string;
 }
 
-// type Params = Promise<{ category: string }>;
-// { params: Params }
-// const { category } = await params;
+type Params = Promise<{ category: string }>;
 
-export default async function CategoryPage({ params, }: { params: { category: string } }) {
-  const plants = getPlants(params.category);
+export default async function CategoryPage({ params }: { params: Params }) {
+
+  const { category } = await params;
+  const plants = getPlants(category);
 
   return (
     <div className="space-y-6 text-center">
       <h1 className="text-3xl font-bold text-green-800">
-        🌿 {formatCategoryName(params.category)}
+        🌿 {formatCategoryName(category)}
       </h1>
       {plants.length === 0 ? (
         <p className="text-gray-600">No plants found in this category.</p>
