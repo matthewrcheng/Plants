@@ -10,7 +10,7 @@ interface PlantData {
   // Add more fields as needed
 }
 
-export default function PlantPage({ params }: { params: { slug: string } }) {
+export default async function PlantPage({ params }: { params: { slug: string } }) {
   const plant = getPlantData(params.slug);
 
   if (!plant) {
@@ -66,4 +66,26 @@ function getPlantData(slug: string): PlantData | null {
     }
   }
   return null;
+}
+
+export async function generateStaticParams() {
+  const fs = require('fs');
+  const path = require('path');
+
+  const plantsDir = path.join(process.cwd(), 'plants');
+  const categories = fs.readdirSync(plantsDir).filter((c: string) =>
+    fs.statSync(path.join(plantsDir, c)).isDirectory()
+  );
+
+  const slugs: { slug: string }[] = [];
+  for (const category of categories) {
+    const files = fs.readdirSync(path.join(plantsDir, category))
+      .filter((f: string) => f.endsWith('.json'))
+      .map((f: string) => ({
+        slug: f.replace(/\.json$/, '')
+      }));
+    slugs.push(...files);
+  }
+
+  return slugs;
 }

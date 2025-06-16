@@ -7,7 +7,7 @@ interface PlantMeta {
   slug: string;
 }
 
-export default function CategoryPage({ params }: { params: { category: string } }) {
+export default async function CategoryPage({ params }: { params: { category: string } }) {
   const plants = getPlants(params.category);
 
   return (
@@ -56,4 +56,18 @@ function formatCategoryName(slug: string): string {
     .split('-')
     .map(word => word[0].toUpperCase() + word.slice(1))
     .join(' ');
+}
+
+export async function generateStaticParams() {
+  const fs = require('fs');
+  const path = require('path');
+
+  const plantsDir = path.join(process.cwd(), 'plants');
+  const categories = fs.readdirSync(plantsDir).filter((c: string) =>
+    fs.statSync(path.join(plantsDir, c)).isDirectory()
+  );
+
+  return categories.map((category: string) => ({
+    category
+  }));
 }
