@@ -10,7 +10,7 @@ interface PlantData {
   // Add more fields as needed
 }
 
-export default async function PlantPage({ params }: { params: { slug: string } }) {
+export default async function PlantPage({ params, }: { params: { slug: string } }) {
   const plant = getPlantData(params.slug);
 
   if (!plant) {
