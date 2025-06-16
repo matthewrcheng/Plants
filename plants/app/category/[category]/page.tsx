@@ -10,7 +10,7 @@ interface PlantMeta {
 
 type Params = Promise<{ category: string }>;
 
-export default async function CategoryPage(props: { 
+export default function CategoryPage(props: { 
   params: Params,
 }) {
   const params = use(props.params);

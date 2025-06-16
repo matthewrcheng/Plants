@@ -13,7 +13,7 @@ interface PlantData {
 
 type Params = Promise<{ slug: string }>;
 
-export default async function PlantPage(props: { 
+export default function PlantPage(props: { 
   params: Params
 }) {
   const params = use(props.params);
