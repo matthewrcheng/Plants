@@ -1,12 +1,62 @@
 {
     "name": "Apple",
-    "latin_name": "Brassica oleracea var. sabellica",
+    "slug": "apple",
     "category": "fruit-trees",
-    "description": "Kale is a hardy leafy green vegetable known for its nutrient density.",
-    "uses": {
-        "culinary": "Used in salads, soups, and stews.",
-        "medicinal": "Rich in vitamins and antioxidants.",
-        "aromatic": "None notable."
+    "growing": {
+      "zone": "3-8 (choose 7a/7b chilling requirement varieties)",
+      "sun": "Full sun",
+      "water": "Medium",
+      "soil": "Deep, fertile, well-drained; frost resistant soils preferred (high clay or sand); hilltop or slope ideal"
+    },
+    "planting": {
+      "height": "8 (dwarf) - 25 (standard) feet",
+      "spacing": "10 (dwarf) - 20 feet apart, with at least one other apple tree variety within 60 feet for pollination",
+      "whenToPlant": "Plant rootstock during dormant season",
+      "propagation": "Graft onto rootstock",
+      "depth": "Deep planting depth",
+      "companion": [
+        "At least one other apple species",
+        "Chamomile",
+        "Coriander",
+        "Basil",
+        "Chives",
+        "Fennel",
+        "Lemongrass",
+        "Yarrow",
+        "Mint"
+      ],
+      "avoidPlantingNear": [
+        "Grasses and herbaceous plants",
+        "Potatoes",
+        "Tomatoes",
+        "Peppers"
+      ]
+    },
+    "careAndMaintenance": {
+      "pruning": [
+        "Classic bush tree pruning during winter",
+        "Remove weak, diseased, or injured branches",
+        "Remove inward, crossing, or upright branches",
+        "Remove one branch from a fork of two"
+      ],
+      "thinning": "Keep apples about 8 inches apart"
+    },
+    "harvestingAndUsage": {
+      "whenToHarvest": "Fall, depending on species"
+    },
+    "ecologicalInfo": {
+      "pollinators": [
+        "Bees",
+        "Butterflies",
+        "Birds"
+      ],
+      "notes": "Require another variety of apple nearby for effective pollination",
+      "pests": [
+        "Watch for leaf pests",
+        "Mildew",
+        "Fungi",
+        "Fireblight"
+      ]
     }
-}
+  }
   

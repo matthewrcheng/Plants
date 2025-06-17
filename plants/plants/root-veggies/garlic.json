@@ -1,0 +1,44 @@
+{
+    "name": "Garlic",
+    "slug": "garlic",
+    "category": "root-veggies",
+    "growing": {
+      "zone": "3-9",
+      "sun": "Full sun",
+      "water": "Moderate; consistent moisture needed during early growth, reduce watering as bulbs mature",
+      "soil": "Loose, well-drained, fertile soil, slightly acidic to neutral pH"
+    },
+    "planting": {
+      "spacing": "4-6 inches apart, rows 12 inches apart",
+      "whenToPlant": "Plant individual cloves in fall (4-6 weeks before ground freezes) or early spring in mild climates",
+      "propagation": "Plant individual cloves from a garlic bulb",
+      "depth": "2 inches deep, pointy side up",
+      "companion": [
+        "Tomatoes",
+        "Carrots",
+        "Beets",
+        "Lettuce",
+        "Fruit trees"
+      ],
+      "avoidPlantingNear": [
+        "Beans",
+        "Peas",
+        "Asparagus"
+      ]
+    },
+    "careAndMaintenance": {
+      "pruning": "Remove scapes (flower stalks) from hardneck varieties to encourage larger bulb formation",
+      "general": "Keep weed-free; mulch helps retain moisture and reduce weeds"
+    },
+    "harvestingAndUsage": {
+      "whenToHarvest": "When lower leaves turn brown but 5-6 green leaves remain (usually mid-summer)",
+      "howToHarvest": "Loosen soil gently and pull bulbs; cure in a dry, airy spot for 2-3 weeks",
+      "preservation": "Store cured bulbs in a cool, dry, well-ventilated area; can also be frozen or pickled"
+    },
+    "ecologicalInfo": {
+      "pollinators": "If left to flower, will attract bees and beneficial insects",
+      "wildlifeResistance": "Strong scent deters many pests and wildlife",
+      "nitrogenFixer": "No"
+    }
+  }
+  

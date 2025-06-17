@@ -1,0 +1,43 @@
+{
+    "name": "Plum",
+    "slug": "plum",
+    "category": "fruit-trees",
+    "growing": {
+      "zone": "4-9",
+      "sun": "Full sun",
+      "water": "Average",
+      "soil": "Well-draining, slightly acidic; hilltop or slope ideal"
+    },
+    "planting": {
+      "height": "10-20 feet",
+      "spacing": "10-20 feet",
+      "whenToPlant": "Plant bare-root trees in early spring in a low wind area",
+      "propagation": "Grafting",
+      "depth": "Deep planting",
+      "companion": [
+        "Other plum varieties for improved pollination and yield"
+      ],
+      "avoidPlantingNear": []
+    },
+    "careAndMaintenance": {
+      "pruning": [
+        "Prune during dormancy (similar to other fruit trees like apple and peach)",
+        "Remove weak, diseased, or damaged branches",
+        "Remove water sprouts and suckers",
+        "Thin out crowded or crossing branches to improve airflow and structure"
+      ],
+      "thinning": "Thin fruits to leave 2-4 inches between plums on the branch"
+    },
+    "harvestingAndUsage": {
+      "whenToHarvest": "When fully colored and slightly soft to the touch",
+      "howToHarvest": "Gently twist and pull to detach from the branch",
+      "notes": "Plum trees typically decline in productivity after 15-20 years"
+    },
+    "ecologicalInfo": {
+      "pollinators": [
+        "Bees",
+        "Some varieties are self-fertile but most benefit from nearby plum varieties"
+      ]
+    }
+  }
+  

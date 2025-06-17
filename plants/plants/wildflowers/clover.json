@@ -1,0 +1,67 @@
+{
+    "name": "Clover",
+    "slug": "clover",
+    "category": "wildflowers",
+    "growing": {
+        "zone": "3-10",
+        "sun": "Full sun to partial shade",
+        "water": "Moderate; tolerates some drought once established",
+        "soil": "Prefers well-drained, fertile soil; adapts to poor soils and fixes nitrogen"
+    },
+    "planting": {
+        "height": "4-20 inches (varies by species and conditions)",
+        "spacing": "Broadcast for ground cover; thin to 4-6 inches if growing in patches",
+        "whenToPlant": "Early spring or fall (cooler temps encourage establishment)",
+        "propagation": "Primarily by seed; spreads by creeping stems (especially white clover)",
+        "depth": "Surface sow or lightly cover (~1/8 inch)",
+        "companion": [
+            "Fruit trees",
+            "Vegetable gardens (improves soil nitrogen)",
+            "Corn",
+            "Squash"
+        ],
+        "avoidPlantingNear": []
+    },
+    "careAndMaintenance": {
+        "pruning": "Mow or trim to encourage fresh growth or control spread",
+        "stakingOrSupport": "None required",
+        "overwintering": "Perennial; tolerates winter well and regrows in spring"
+    },
+    "harvestingAndUsage": {
+        "whenToHarvest": "Flowers: mid to late spring when fully open; Leaves: any time young and tender",
+        "howToHarvest": "Pinch or snip flowers and leaves by hand or with scissors",
+        "preservation": "Dry flowers and leaves for tea or medicinal use; store in airtight container",
+        "edibleOrToxic": "Edible in moderation; avoid consumption of moldy clover or large quantities (may cause bloating in livestock)",
+        "culinary": "Flowers and young leaves can be added to salads, teas, or used to make clover jelly",
+        "medicinal": {
+            "Blood Purifier & Detoxifier": "Red clover is traditionally used to support detoxification and as a gentle blood purifier.",
+            "Hormonal Support": "Contains phytoestrogens; used in folk remedies to ease menopausal symptoms.",
+            "Respiratory Health": "Historically used as an expectorant for coughs and bronchial conditions.",
+            "Skin Soothing": "Infusions applied topically for minor skin irritations or rashes."
+        },
+        "aromatic": "Mildly sweet scent, especially when flowering; attractive to bees and pleasant in dried arrangements"
+    },
+    "ecologicalInfo": {
+        "pollinators": [
+            "Bees (especially bumblebees and honeybees)",
+            "Butterflies"
+        ],
+        "wildlifeResistance": "Often grazed by rabbits, deer, and livestock; not resistant",
+        "nitrogenFixer": true
+    },
+    "extra": {
+        "funFacts": [
+            "Clover fixes atmospheric nitrogen, enriching the soil naturally.",
+            "A common symbol of good luck, especially the four-leaf clover variant.",
+            "Clover is often used as a living mulch or green manure in permaculture systems."
+        ],
+        "links": {
+            "howToUse": "/guides/using-clover",
+            "funFacts": "/guides/clover-folklore"
+        },
+        "images": [
+            "/images/plants/clover-red.jpg",
+            "/images/plants/clover-white.jpg"
+        ]
+    }
+}

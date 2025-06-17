@@ -1,0 +1,69 @@
+{
+    "name": "Chamomile",
+    "slug": "chamomile",
+    "category": "medicinal-herbs",
+    "growing": {
+        "zone": "3-9 (German chamomile is grown as an annual; Roman chamomile is perennial)",
+        "sun": "Full sun preferred, tolerates partial shade",
+        "water": "Moderate; drought-tolerant once established but prefers consistent moisture without waterlogging",
+        "soil": "Light, well-draining soil with a neutral to slightly acidic pH (6-7)"
+    },
+    "planting": {
+        "height": "6-24 inches (German is taller; Roman is lower-growing and more mat-forming)",
+        "spacing": "8-12 inches apart",
+        "whenToPlant": "Direct sow in spring after last frost or start indoors 4-6 weeks before",
+        "propagation": "Easily grown from seed (German); Roman can be propagated by division or cuttings",
+        "depth": "Sow seeds on the surface or lightly press into soil; they need light to germinate",
+        "companion": [
+            "Cabbage (repels pests)",
+            "Onions",
+            "Mint",
+            "Basil"
+        ],
+        "avoidPlantingNear": []
+    },
+    "careAndMaintenance": {
+        "pruning": "Regular harvesting of flowers encourages more blooms",
+        "stakingOrSupport": "Generally not required; taller German chamomile may benefit from support in windy spots",
+        "overwintering": "Roman chamomile overwinters as a low mat; German chamomile completes its lifecycle in one season"
+    },
+    "harvestingAndUsage": {
+        "whenToHarvest": "When flowers are fully open but before petals start to droop (for best flavor and potency)",
+        "howToHarvest": "Pinch or snip flower heads; for large harvests, a chamomile rake or comb can be used",
+        "preservation": "Air dry flower heads in a dark, well-ventilated space; store in airtight containers away from light and moisture",
+        "edibleOrToxic": "Generally considered safe; excessive consumption may cause allergic reactions, especially in those sensitive to ragweed. Avoid during pregnancy in large amounts.",
+        "culinary": "Used in herbal teas (fresh or dried flowers); can be infused into syrups, desserts, or salad garnishes",
+        "medicinal": {
+            "Digestive Soothing": "Chamomile tea is traditionally used to ease indigestion, bloating, and gas thanks to its mild antispasmodic and carminative properties.",
+            "Calming & Sleep": "Well-known as a gentle relaxant to help reduce anxiety and promote restful sleep; often included in bedtime tea blends.",
+            "Skin Care": "Used topically as a wash or compress to soothe irritated skin, minor wounds, rashes, and insect bites. Contains anti-inflammatory compounds.",
+            "Oral Health": "Mild antiseptic properties make chamomile useful as a mouthwash for gum inflammation or canker sores.",
+            "Anti-inflammatory": "Drunk as tea or used in poultices for mild inflammation, including menstrual cramps or sore muscles."
+        },
+        "aromatic": "Delicate, apple-like fragrance; historically called the 'plant's physician' because of its beneficial scent in gardens"
+    },
+    "ecologicalInfo": {
+        "pollinators": [
+            "Bees",
+            "Hoverflies",
+            "Butterflies"
+        ],
+        "wildlifeResistance": "Generally not favored by deer or rabbits",
+        "nitrogenFixer": false
+    },
+    "extra": {
+        "funFacts": [
+            "The name 'chamomile' comes from the Greek for 'earth apple,' referring to its scent.",
+            "It is sometimes interplanted in orchards to encourage healthy fruit trees.",
+            "Chamomile was a key herb in ancient Egyptian, Greek, and Roman medicine."
+        ],
+        "links": {
+            "howToUse": "/guides/using-chamomile",
+            "funFacts": "/guides/chamomile-history"
+        },
+        "images": [
+            "/images/plants/chamomile-plant.jpg",
+            "/images/plants/chamomile-harvest.jpg"
+        ]
+    }
+}

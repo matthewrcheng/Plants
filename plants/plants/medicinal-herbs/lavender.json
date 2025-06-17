@@ -1,0 +1,68 @@
+{
+    "name": "Lavender",
+    "slug": "lavender",
+    "category": "medicinal-herbs",
+    "growing": {
+        "zone": "5-9 (can be grown as an annual or overwintered indoors in cooler zones)",
+        "sun": "Full sun (6-8+ hours daily)",
+        "water": "Low once established; prefers dry conditions and hates wet roots",
+        "soil": "Well-drained, sandy or rocky soil with neutral to slightly alkaline pH (6.5-8)"
+    },
+    "planting": {
+        "height": "12-36 inches (variety dependent)",
+        "spacing": "18-24 inches apart to allow airflow",
+        "whenToPlant": "Spring after last frost or fall in mild climates",
+        "propagation": "Best by softwood cuttings; seeds are slow and variable in germination",
+        "depth": "Surface sow seeds or plant cuttings at soil level",
+        "companion": [
+            "Roses (deters pests)",
+            "Fruit trees",
+            "Cabbage family (helps repel moths)"
+        ],
+        "avoidPlantingNear": []
+    },
+    "careAndMaintenance": {
+        "pruning": "Lightly prune after flowering to maintain shape; harder prune in spring to encourage bushiness",
+        "stakingOrSupport": "May need light support in windy areas or for taller varieties",
+        "overwintering": "Mulch lightly in fall in colder zones; container plants can be moved indoors"
+    },
+    "harvestingAndUsage": {
+        "whenToHarvest": "When 1/3 to 1/2 of the flower buds are open for best fragrance and oil content",
+        "howToHarvest": "Cut stems early in the day after dew has dried; bundle and hang upside down to dry",
+        "preservation": "Air dry in bundles; store dried flowers in airtight containers away from light",
+        "edibleOrToxic": "Edible in small quantities (culinary lavender); large amounts may cause digestive upset. Essential oil is not for internal use.",
+        "culinary": "Used sparingly in desserts, syrups, teas, and as part of Herbes de Provence blend",
+        "medicinal": {
+            "Relaxation & Anxiety": "Lavender is widely used in aromatherapy to promote calm and reduce stress. Scientific studies support mild sedative effects.",
+            "Sleep Aid": "Often used in sachets or oils to improve sleep quality and ease insomnia.",
+            "Digestive Health": "Traditional use for soothing stomach discomfort; lavender tea is mildly carminative.",
+            "Skin Support": "Lavender oil is applied (diluted) to minor burns, cuts, and insect bites for its antimicrobial and soothing properties.",
+            "Headache Relief": "Inhalation of lavender aroma or applying diluted oil to temples may help relieve tension headaches."
+        },
+        "aromatic": "Strong, sweet, floral scent; valued for perfumes, sachets, and essential oils"
+    },
+    "ecologicalInfo": {
+        "pollinators": [
+            "Bees",
+            "Butterflies",
+            "Hoverflies"
+        ],
+        "wildlifeResistance": "Deer and rabbits usually avoid lavender due to its strong scent",
+        "nitrogenFixer": false
+    },
+    "extra": {
+        "funFacts": [
+            "Lavender has been cultivated for over 2,500 years for its fragrance and medicinal properties.",
+            "Romans used lavender in their baths — the name comes from 'lavare,' meaning 'to wash.'",
+            "Dried lavender retains its scent for months or even years."
+        ],
+        "links": {
+            "howToUse": "/guides/using-lavender",
+            "funFacts": "/guides/lavender-folklore"
+        },
+        "images": [
+            "/images/plants/lavender-plant.jpg",
+            "/images/plants/lavender-harvest.jpg"
+        ]
+    }
+}

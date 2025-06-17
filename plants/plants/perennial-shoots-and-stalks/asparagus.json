@@ -1,0 +1,50 @@
+{
+    "name": "Asparagus",
+    "slug": "asparagus",
+    "category": "perennial-shoots-and-stalks",
+    "growing": {
+      "zone": "4-9",
+      "sun": "Full sun (at least 6-8 hours daily)",
+      "water": "Moderate; consistent moisture during establishment and harvest period",
+      "soil": "Neutral pH (6.5-7.5), well-draining or raised bed preferred; rich in organic matter; mulch helps retain moisture and suppress weeds"
+    },
+    "planting": {
+      "height": "Ferns can grow 4-5 feet tall once mature",
+      "spacing": "12-18 inches between plants, rows 3-5 feet apart",
+      "whenToPlant": "Plant crowns 2-4 weeks before last frost date; soak crowns in water for 1-2 hours before planting",
+      "propagation": "Primarily by crowns; can also grow from seed but takes longer to establish",
+      "depth": "Loosen soil 12-18 inches deep; plant crowns 6-8 inches deep in trenches, cover gradually as shoots grow",
+      "companion": [
+        "Strawberries",
+        "Dill",
+        "Basil",
+        "Marigolds",
+        "Parsley",
+        "Nightshades (tomatoes, peppers)"
+      ],
+      "avoidPlantingNear": [
+        "Onions",
+        "Potatoes",
+        "Garlic",
+        "Areas where soil is frequently disturbed (can damage crowns)"
+      ]
+    },
+    "careAndMaintenance": {
+      "pruning": "Not required during growing season; let ferns grow after harvest",
+      "overwintering": "Allow ferns to grow and store energy; cut back only after foliage has died and turned brown or yellow in early winter; apply mulch for added protection"
+    },
+    "harvestingAndUsage": {
+      "whenToHarvest": "Begin in 3rd year (skip first 2 years to allow plant establishment); harvest spears when they are 6-10 inches tall and before tips open",
+      "howToHarvest": "Cut spears at or just below ground level with a sharp knife or asparagus knife; stop harvesting when spear diameter becomes thinner than a pencil",
+      "preservation": "Can be blanched and frozen; used fresh in culinary dishes"
+    },
+    "ecologicalInfo": {
+      "pollinators": [
+        "Generally wind-pollinated; flowers may attract small insects"
+      ],
+      "wildlifeResistance": [
+        "Deer and rabbits may browse young shoots"
+      ]
+    }
+  }
+  

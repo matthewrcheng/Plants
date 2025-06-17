@@ -1,0 +1,48 @@
+{
+    "name": "Peach",
+    "slug": "peach",
+    "category": "fruit-trees",
+    "growing": {
+      "zone": "5-9",
+      "sun": "Full sun",
+      "water": "High when young; typically unneeded once mature",
+      "soil": "Well-draining, slightly acidic; hilltop or slope ideal"
+    },
+    "planting": {
+      "height": "15-25 feet",
+      "spacing": "8-14 feet apart",
+      "whenToPlant": "Plant rootstock when dormant; grafted trees can be planted anytime",
+      "propagation": "Grafting",
+      "depth": "Deep planting, at least 3 feet",
+      "companion": [
+        "Other peach trees (may improve yield, though not necessary)",
+        "Clover",
+        "Marigolds",
+        "Lavender",
+        "Basil",
+        "Oregano",
+        "Borage",
+        "Wildflowers"
+      ],
+      "avoidPlantingNear": []
+    },
+    "careAndMaintenance": {
+      "pruning": [
+        "Prune during winter",
+        "Remove water sprouts and suckers",
+        "Remove crossed branches",
+        "Limit the number of branches to maintain structure and airflow"
+      ]
+    },
+    "harvestingAndUsage": {
+      "whenToHarvest": "When fully colored and slightly soft to the touch",
+      "howToHarvest": "Twist the fruit gently and pull from the branch"
+    },
+    "ecologicalInfo": {
+      "pollinators": [
+        "Primarily bees"
+      ],
+      "notes": "Self-pollinating, though nearby peaches can enhance productivity"
+    }
+  }
+  

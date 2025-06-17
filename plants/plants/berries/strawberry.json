@@ -1,0 +1,55 @@
+{
+    "name": "Strawberry",
+    "slug": "strawberry",
+    "category": "berries",
+    "growing": {
+      "zone": "2-10",
+      "sun": "Full sun",
+      "water": "High; consistent moisture is important, especially during fruiting",
+      "soil": "Slightly acidic, rich soil with plenty of compost; mulch recommended to retain moisture and suppress weeds"
+    },
+    "planting": {
+      "height": "Short groundcover (typically 6-8 inches)",
+      "spacing": "1-2 feet apart, with rows spaced about 4 feet apart",
+      "whenToPlant": "Plant in spring after danger of frost; raised beds are ideal for drainage and warmth",
+      "propagation": "Strawberries produce runners (stolons) that root and form new plants",
+      "depth": "Relatively shallow; crown should sit at soil level",
+      "companion": [
+        "Garlic",
+        "Radishes",
+        "Peas",
+        "Beans",
+        "Spinach",
+        "Lettuce"
+      ],
+      "avoidPlantingNear": [
+        "Nightshades (e.g., potatoes, tomatoes, peppers)"
+      ]
+    },
+    "careAndMaintenance": {
+      "pruning": [
+        "Remove runners if spreading is not desired to encourage more fruit production",
+        "Allow some runners if you want the patch to expand naturally"
+      ],
+      "notes": "Strawberries are short-lived perennials; beds should be renewed every 3-5 years for best yield"
+    },
+    "harvestingAndUsage": {
+      "whenToHarvest": "Harvest when berries are fully red and ripe; best picked in the morning when cool",
+      "howToHarvest": "Gently twist or snip berries from the stem to avoid damaging plants",
+      "varieties": {
+        "June-bearing": "Produces large, flavorful strawberries early to mid-season; good for fresh eating and freezing",
+        "Everbearing": "Produces smaller berries in several flushes throughout the season; excellent for jams and preserves"
+      }
+    },
+    "ecologicalInfo": {
+      "pollinators": [
+        "Bees (primary pollinators)",
+        "Self-pollinating flowers"
+      ],
+      "wildlifeResistance": [
+        "Susceptible to birds — use netting for protection",
+        "Susceptible to slugs — use slug traps or barriers"
+      ]
+    }
+  }
+  

@@ -1,0 +1,57 @@
+{
+    "name": "Blueberry",
+    "slug": "blueberry",
+    "category": "berries",
+    "growing": {
+      "zone": "3-10 (depending on variety)",
+      "sun": "Full sun",
+      "water": "Consistently moist; does not tolerate drought well, especially when fruiting",
+      "soil": "Rich, moisture-retentive, acidic soil (pH 4.5-5.5); amend with peat moss or pine needles if needed"
+    },
+    "planting": {
+      "height": "Highbush: 6-8 feet; Lowbush: 1-2 feet",
+      "spacing": "Highbush: 4-5 feet apart; Lowbush: 2-3 feet apart",
+      "whenToPlant": "Plant in early spring as soon as the soil can be worked",
+      "propagation": "Typically propagated by cuttings; layering or suckers can also be used (lowbush spreads by underground rhizomes)",
+      "depth": "Medium; plant at the same depth as in nursery pot or slightly deeper if bare-root",
+      "companion": [
+        "Other blueberry varieties (cross-pollination improves yield and berry size)"
+      ],
+      "avoidPlantingNear": [
+        "Nightshades (e.g., potatoes, tomatoes, peppers)"
+      ]
+    },
+    "careAndMaintenance": {
+      "pruning": [
+        "Prune in late winter while dormant",
+        "No pruning during the first 2 years except to remove dead or weak growth",
+        "Remove flower buds the first 2 years to encourage strong vegetative growth",
+        "For highbush: remove oldest canes after year 5 to promote new growth",
+        "For lowbush: mow or cut plants to ground every 2-3 years after harvest to rejuvenate"
+      ],
+      "notes": "Mulch with pine bark, sawdust, or wood chips to conserve moisture and maintain acidity"
+    },
+    "harvestingAndUsage": {
+      "whenToHarvest": "When berries are fully blue, plump, and easily detach from the plant, typically mid to late summer depending on variety",
+      "howToHarvest": "Gently roll berries between fingers or palm; they should fall off easily when ripe",
+      "preservation": "Freeze, dry, or make into jams and jellies; fresh berries can store in the fridge for up to 10 days"
+    },
+    "ecologicalInfo": {
+      "pollinators": [
+        "Bees (essential for good fruit set)",
+        "Bumblebees and native solitary bees particularly effective"
+      ],
+      "wildlifeResistance": [
+        "Birds love blueberries — cover plants with netting during ripening to protect the crop"
+      ]
+    },
+    "varieties": {
+      "highbush": {
+        "description": "Common in home gardens; larger berries, upright shrubs 6-8 feet tall; best for zones 4-7; higher yields with cross-pollination"
+      },
+      "lowbush": {
+        "description": "Wild or semi-cultivated blueberries; smaller berries, dense ground cover 1-2 feet tall; very cold hardy (zones 3-6); good for naturalized plantings and erosion control"
+      }
+    }
+  }
+  

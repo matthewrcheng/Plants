@@ -2,20 +2,51 @@ import fs from 'fs';
 import path from 'path';
 import { use } from 'react';
 
-interface PlantData {
+export interface PlantData {
   name: string;
-  description: string;
-  benefits?: string;
-  culinaryUses?: string;
-  medicinalUses?: string;
-  // Add more fields as needed
+  slug: string;
+  category: string;
+  description?: string;
+  growing?: {
+    zone?: string;
+    sun?: string;
+    water?: string;
+    soil?: string;
+  };
+  planting?: {
+    height?: string;
+    spacing?: string;
+    whenToPlant?: string;
+    propagation?: string;
+    depth?: string;
+    companion?: string[];
+    avoidPlantingNear?: string[];
+  };
+  careAndMaintenance?: {
+    pruning?: string;
+    stakingOrSupport?: string;
+    overwintering?: string;
+    general?: string;
+  };
+  harvestingAndUsage?: {
+    whenToHarvest?: string;
+    howToHarvest?: string;
+    preservation?: string;
+    edibleOrToxic?: string;
+    culinary?: string;
+    medicinal?: string;
+    aromatic?: string;
+  };
+  ecologicalInfo?: {
+    pollinators?: string;
+    wildlifeResistance?: string;
+    nitrogenFixer?: string;
+  };
 }
 
 type Params = Promise<{ slug: string }>;
 
-export default function PlantPage(props: { 
-  params: Params
-}) {
+export default function PlantPage(props: { params: Params }) {
   const params = use(props.params);
   const slug = params.slug;
   const plant = getPlantData(slug);
@@ -28,46 +59,53 @@ export default function PlantPage(props: {
     );
   }
 
+  const renderSection = (title: string, data: Record<string, any> | undefined) => {
+    if (!data) return null;
+    const entries = Object.entries(data).filter(([, v]) => v);
+    if (entries.length === 0) return null;
+
+    return (
+      <section className="space-y-1">
+        <h2 className="text-xl font-semibold text-green-700">{title}</h2>
+        <ul className="list-disc ml-6">
+          {entries.map(([key, value]) => (
+            <li key={key}>
+              <strong>{formatLabel(key)}:</strong>{' '}
+              {Array.isArray(value) ? value.join(', ') : value}
+            </li>
+          ))}
+        </ul>
+      </section>
+    );
+  };
+
+  const formatLabel = (key: string) =>
+    key
+      .replace(/([A-Z])/g, ' $1')
+      .replace(/^./, (s) => s.toUpperCase());
+
   return (
     <div className="space-y-4">
       <h1 className="text-3xl font-bold text-green-800">{plant.name}</h1>
-      <p>{plant.description}</p>
+      {plant.description && <p>{plant.description}</p>}
 
-      {plant.benefits && (
-        <section>
-          <h2 className="text-xl font-semibold text-green-700">Benefits</h2>
-          <p>{plant.benefits}</p>
-        </section>
-      )}
-
-      {plant.culinaryUses && (
-        <section>
-          <h2 className="text-xl font-semibold text-green-700">Culinary Uses</h2>
-          <p>{plant.culinaryUses}</p>
-        </section>
-      )}
-
-      {plant.medicinalUses && (
-        <section>
-          <h2 className="text-xl font-semibold text-green-700">Medicinal Uses</h2>
-          <p>{plant.medicinalUses}</p>
-        </section>
-      )}
+      {renderSection('Growing', plant.growing)}
+      {renderSection('Planting', plant.planting)}
+      {renderSection('Care & Maintenance', plant.careAndMaintenance)}
+      {renderSection('Harvesting & Usage', plant.harvestingAndUsage)}
+      {renderSection('Ecological Info', plant.ecologicalInfo)}
     </div>
   );
 }
 
 function getPlantData(slug: string): PlantData | null {
   const plantsDir = path.join(process.cwd(), 'plants');
-  console.log('plantsDir', plantsDir);
-  // Search through all categories for the slug
-  const categories = fs.readdirSync(plantsDir).filter(c => 
+  const categories = fs.readdirSync(plantsDir).filter(c =>
     fs.statSync(path.join(plantsDir, c)).isDirectory()
   );
 
   for (const category of categories) {
     const filePath = path.join(plantsDir, category, `${slug}.json`);
-    console.log('filePath', filePath);
     if (fs.existsSync(filePath)) {
       return JSON.parse(fs.readFileSync(filePath, 'utf8'));
     }
@@ -76,19 +114,17 @@ function getPlantData(slug: string): PlantData | null {
 }
 
 export async function generateStaticParams() {
-  const fs = require('fs');
-  const path = require('path');
-
   const plantsDir = path.join(process.cwd(), 'plants');
-  const categories = fs.readdirSync(plantsDir).filter((c: string) =>
+  const categories = fs.readdirSync(plantsDir).filter(c =>
     fs.statSync(path.join(plantsDir, c)).isDirectory()
   );
 
   const slugs: { slug: string }[] = [];
   for (const category of categories) {
-    const files = fs.readdirSync(path.join(plantsDir, category))
-      .filter((f: string) => f.endsWith('.json'))
-      .map((f: string) => ({
+    const files = fs
+      .readdirSync(path.join(plantsDir, category))
+      .filter((f) => f.endsWith('.json'))
+      .map((f) => ({
         slug: f.replace(/\.json$/, '')
       }));
     slugs.push(...files);

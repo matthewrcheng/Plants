@@ -1,0 +1,65 @@
+{
+    "name": "Southernwood (Cola Plant)",
+    "slug": "southernwood",
+    "category": "medicinal-herbs",
+    "growing": {
+        "zone": "4-9",
+        "sun": "Full sun",
+        "water": "Low to moderate; drought-tolerant once established",
+        "soil": "Well-drained, sandy or gravelly soil; does not tolerate wet or heavy soils"
+    },
+    "planting": {
+        "height": "3-5 feet",
+        "spacing": "18-24 inches apart",
+        "whenToPlant": "Spring after last frost, or fall in mild climates",
+        "propagation": "Softwood or semi-hardwood cuttings, division, or seeds (cuttings preferred for true type)",
+        "depth": "Plant at same depth as in nursery pot; seeds require light covering (~1/8 inch)",
+        "companion": [
+            "Roses",
+            "Lavender",
+            "Sage"
+        ],
+        "avoidPlantingNear": []
+    },
+    "careAndMaintenance": {
+        "pruning": "Prune regularly to maintain bushy shape and encourage fresh growth; cut back hard in spring to rejuvenate",
+        "stakingOrSupport": "Not typically needed",
+        "overwintering": "Hardy in its zones; mulch around the base in colder areas to protect roots"
+    },
+    "harvestingAndUsage": {
+        "whenToHarvest": "Harvest leaves and stems anytime during the growing season, ideally before flowering for best aroma",
+        "howToHarvest": "Snip young stems and leaves with sharp shears; avoid harvesting more than one-third at a time",
+        "preservation": "Dry stems in small bundles in a warm, airy place; store dried leaves in sealed containers away from light and moisture",
+        "edibleOrToxic": "Generally not considered edible in culinary amounts; bitter and aromatic; avoid large internal doses as it may be mildly toxic",
+        "culinary": "Rarely used in modern cooking; historically used sparingly to flavor meats and stews or as a bitter tonic",
+        "medicinal": {
+            "Digestive Aid": "Traditionally used in small doses as a bitter tonic to stimulate appetite and digestion.",
+            "Anti-Parasitic": "Historically employed as a vermifuge (to expel intestinal worms).",
+            "Respiratory Support": "Used in folk medicine as an infusion or inhalation for coughs and congestion.",
+            "Skin & External Use": "Infused in vinegar or alcohol for use as a rub to deter lice and as a wound wash."
+        },
+        "aromatic": "Strongly aromatic with a scent reminiscent of cola or lemon; used in potpourri, sachets, and insect-repellent bundles"
+    },
+    "ecologicalInfo": {
+        "pollinators": [
+            "Bees (minor attraction)",
+            "Beneficial predatory insects"
+        ],
+        "wildlifeResistance": "Highly resistant to deer and rabbits due to strong aroma",
+        "nitrogenFixer": false
+    },
+    "extra": {
+        "funFacts": [
+            "Also known as 'Lad’s Love' and 'Old Man', Southernwood was traditionally tucked into clothing or bedding to repel moths and lice.",
+            "The plant's distinctive cola-like scent gives it the nickname 'Cola Plant'."
+        ],
+        "links": {
+            "howToUse": "/guides/using-southernwood",
+            "funFacts": "/guides/southernwood-folklore"
+        },
+        "images": [
+            "/images/plants/southernwood-plant.jpg",
+            "/images/plants/southernwood-dried.jpg"
+        ]
+    }
+}

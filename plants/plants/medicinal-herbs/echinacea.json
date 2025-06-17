@@ -1,0 +1,62 @@
+{
+    "name": "Echinacea (Coneflower)",
+    "slug": "echinacea",
+    "category": "medicinal-herbs",
+    "growing": {
+        "zone": "3-9",
+        "sun": "Full sun to partial shade",
+        "water": "Moderate; drought-tolerant once established",
+        "soil": "Well-drained, sandy or loamy soil; tolerates poor soils"
+    },
+    "planting": {
+        "height": "2-5 feet",
+        "spacing": "12-24 inches apart",
+        "whenToPlant": "Spring after last frost or fall in mild climates",
+        "propagation": "Seeds, division of clumps in spring or fall, or root cuttings",
+        "depth": "Seeds should be lightly covered (~1/8 inch)",
+        "companion": [
+            "Lavender",
+            "Yarrow",
+            "Black-eyed Susan",
+            "Bee balm"
+        ],
+        "avoidPlantingNear": []
+    },
+    "careAndMaintenance": {
+        "pruning": "Deadhead to extend blooming season; cut back stems in late fall or early spring",
+        "stakingOrSupport": "Generally not needed, though taller varieties may benefit from support in windy areas",
+        "overwintering": "Cut back dead stems in fall or leave for winter interest and wildlife; hardy in its zones"
+    },
+    "harvestingAndUsage": {
+        "whenToHarvest": "Harvest roots in the fall of the plant’s second or third year; harvest flowers and leaves during bloom",
+        "howToHarvest": "Dig up roots carefully; snip flowers and leaves with clean shears",
+        "preservation": "Dry roots, flowers, and leaves in a warm, airy place and store in sealed containers away from light",
+        "edibleOrToxic": "Non-toxic; generally safe when consumed in moderate medicinal doses",
+        "culinary": "Not commonly used in cooking; sometimes included in herbal teas",
+        "medicinal": "Supports immune system health, may reduce severity and duration of colds; anti-inflammatory and wound-healing properties; used in tinctures, teas, and salves",
+        "aromatic": "Mildly aromatic when crushed; not strongly fragrant"
+    },
+    "ecologicalInfo": {
+        "pollinators": [
+            "Bees",
+            "Butterflies",
+            "Other beneficial insects"
+        ],
+        "wildlifeResistance": "Resistant to deer and rabbits",
+        "nitrogenFixer": false
+    },
+    "extra": {
+        "funFacts": [
+            "Native Americans traditionally used echinacea for snakebites and infections.",
+            "The name 'echinacea' comes from the Greek word for 'hedgehog' (echinos), referring to the spiny seed head."
+        ],
+        "links": {
+            "howToUse": "/guides/using-echinacea",
+            "funFacts": "/guides/echinacea-fun-facts"
+        },
+        "images": [
+            "/images/plants/echinacea-flower.jpg",
+            "/images/plants/echinacea-root.jpg"
+        ]
+    }
+}

@@ -1,0 +1,65 @@
+{
+    "name": "Feverfew",
+    "slug": "feverfew",
+    "category": "medicinal-herbs",
+    "growing": {
+        "zone": "4-9 (can behave as a short-lived perennial or self-seeding annual depending on climate)",
+        "sun": "Full sun preferred; tolerates partial shade",
+        "water": "Moderate; drought-tolerant once established but grows best with consistent moisture",
+        "soil": "Well-draining soil; not fussy about pH but prefers neutral to slightly alkaline conditions"
+    },
+    "planting": {
+        "height": "18-24 inches",
+        "spacing": "12-18 inches apart",
+        "whenToPlant": "Sow seeds indoors 6-8 weeks before last frost or direct sow outdoors after frost danger passes",
+        "propagation": "Primarily from seed; can also be divided in early spring or fall",
+        "depth": "Surface sow seeds; they need light to germinate",
+        "companion": [
+            "Roses (may deter aphids)",
+            "Tomatoes (potential pest deterrent)"
+        ],
+        "avoidPlantingNear": []
+    },
+    "careAndMaintenance": {
+        "pruning": "Deadhead spent flowers to prolong blooming and limit self-seeding if not desired",
+        "stakingOrSupport": "May need support in windy areas due to its branching habit",
+        "overwintering": "Mulch lightly in colder zones; perennial forms may die back and regrow from the base in spring"
+    },
+    "harvestingAndUsage": {
+        "whenToHarvest": "Harvest leaves before flowering for medicinal use; flowers can also be collected when fully open",
+        "howToHarvest": "Cut stems or pinch leaves; harvest in the morning after dew has dried for best potency",
+        "preservation": "Air dry leaves and flowers in a dark, dry location; store in airtight containers",
+        "edibleOrToxic": "Generally considered safe in small quantities; fresh leaves can cause mouth ulcers or digestive upset. Avoid during pregnancy and in individuals allergic to related plants (e.g., ragweed).",
+        "culinary": "Rarely used in culinary applications due to bitter flavor; sometimes added in tiny amounts to salads (young leaves only, used sparingly)",
+        "medicinal": {
+            "Migraine Prevention": "Traditionally used to reduce the frequency and severity of migraines. Contains parthenolide, thought to inhibit compounds involved in migraine onset. Typically consumed as a daily supplement (dried leaf capsules or tincture).",
+            "Anti-inflammatory": "Used for relief of arthritis and general inflammation due to natural anti-inflammatory compounds.",
+            "Digestive Support": "Historically used in small doses to stimulate digestion and ease bloating, though its bitter taste limits use.",
+            "Fever Reduction": "As the name implies, used in folk medicine as a febrifuge (fever reducer), often in tea form, though this is less common today."
+        },
+        "aromatic": "Strong, pungent scent that can repel certain garden pests"
+    },
+    "ecologicalInfo": {
+        "pollinators": [
+            "Bees",
+            "Hoverflies",
+            "Butterflies"
+        ],
+        "wildlifeResistance": "Deer and rabbits tend to avoid feverfew due to its bitter compounds and strong scent",
+        "nitrogenFixer": false
+    },
+    "extra": {
+        "funFacts": [
+            "Feverfew has been cultivated since ancient times and was once known as 'medieval aspirin.'",
+            "The plant readily self-seeds and can naturalize in the garden if not deadheaded."
+        ],
+        "links": {
+            "howToUse": "/guides/using-feverfew",
+            "funFacts": "/guides/feverfew-history"
+        },
+        "images": [
+            "/images/plants/feverfew-plant.jpg",
+            "/images/plants/feverfew-flowers.jpg"
+        ]
+    }
+}

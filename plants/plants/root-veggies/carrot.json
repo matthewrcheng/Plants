@@ -1,0 +1,43 @@
+{
+    "name": "Carrot",
+    "slug": "carrot",
+    "category": "root-veggies",
+    "growing": {
+      "zone": "3-10",
+      "sun": "Full sun",
+      "water": "Frequent but shallow watering; keep soil consistently moist during germination and early growth",
+      "soil": "Free-draining, sandy or loamy soil; avoid heavy clay; soil should be deep and loose to allow for straight root growth"
+    },
+    "planting": {
+      "height": "Short (roots underground, foliage to about 1 foot tall)",
+      "spacing": "2-3 inches apart in rows 1 foot apart",
+      "whenToPlant": "Every 4 weeks for continuous harvest, starting 2-3 weeks before last frost in spring; fall plantings 10-12 weeks before first frost",
+      "depth": "Plant seeds at surface level, barely covered with soil; ensure 10 inches of good soil depth for root development",
+      "companion": [
+        "Radish",
+        "Onions",
+        "Chives",
+        "Leeks",
+        "Lettuce",
+        "Marigolds"
+      ],
+      "avoidPlantingNear": [
+        "Potatoes"
+      ]
+    },
+    "careAndMaintenance": {
+      "pruning": "Thin seedlings to 3 inches apart once they are a few inches tall to prevent crowding and encourage straight root development",
+      "weeding": "Weed regularly to reduce competition, being careful not to disturb shallow carrot roots"
+    },
+    "harvestingAndUsage": {
+      "whenToHarvest": "When diameter is at least ½ inch thick; harvest before extreme heat or cold; can tolerate a few light frosts and may even become sweeter after frost",
+      "howToHarvest": "Grasp foliage near crown and gently pull carrots from soil; loosen soil with a fork if needed to avoid breaking roots",
+      "preservation": "Carrots are biennials; if not harvested, they will produce flowers and seeds in their second year; can be stored in cool, damp sand or refrigerated for long-term storage"
+    },
+    "ecologicalInfo": {
+      "pollinators": "Carrot flowers (if allowed to bolt) attract bees, hoverflies, and other beneficial insects",
+      "wildlifeResistance": "Foliage generally avoided by deer; roots can be targeted by rodents if unprotected",
+      "nitrogenFixer": "No"
+    }
+  }
+  

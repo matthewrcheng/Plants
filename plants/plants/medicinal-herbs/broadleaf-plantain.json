@@ -1,0 +1,65 @@
+{
+    "name": "Broadleaf Plantain",
+    "slug": "broadleaf-plantain",
+    "category": "medicinal-herbs",
+    "growing": {
+        "zone": "3-10",
+        "sun": "Full sun to partial shade",
+        "water": "Moderate; tolerates dry conditions once established",
+        "soil": "Prefers well-drained, compacted soils but adaptable to many soil types"
+    },
+    "planting": {
+        "height": "6-12 inches",
+        "spacing": "Can grow densely, spacing not critical for wild growth",
+        "whenToPlant": "Seeds can be sown in spring or fall; naturalizes easily",
+        "propagation": "By seed; also spreads vegetatively via root fragments",
+        "depth": "Surface sow seeds lightly covered with soil",
+        "companion": [
+            "Grasses and lawn plants (common in lawns and pastures)",
+            "Vegetables where soil compaction is an issue (improves soil structure)"
+        ],
+        "avoidPlantingNear": []
+    },
+    "careAndMaintenance": {
+        "pruning": "Not typically pruned; can be cut back if overgrown",
+        "stakingOrSupport": "None required",
+        "overwintering": "Perennial; survives winter and re-grows from rootstock"
+    },
+    "harvestingAndUsage": {
+        "whenToHarvest": "Young leaves harvested in spring and early summer for best tenderness",
+        "howToHarvest": "Pick leaves by hand or cut with scissors",
+        "preservation": "Use fresh or dry leaves for later use; leaves can be powdered",
+        "edibleOrToxic": "Non-toxic and edible; young leaves used as salad greens or cooked greens",
+        "culinary": "Leaves can be eaten raw in salads or cooked like spinach; seeds can be ground into flour",
+        "medicinal": {
+            "Wound Healing": "Leaves applied topically as poultices for cuts, insect bites, and minor wounds due to anti-inflammatory and antimicrobial properties.",
+            "Respiratory Support": "Used in teas to soothe coughs, bronchitis, and respiratory irritation.",
+            "Digestive Health": "Traditionally used to relieve diarrhea and gastrointestinal discomfort.",
+            "Anti-inflammatory": "Contains compounds that reduce inflammation internally and externally."
+        },
+        "aromatic": "Mild, earthy scent; not widely used for aroma"
+    },
+    "ecologicalInfo": {
+        "pollinators": [
+            "Bees",
+            "Flies"
+        ],
+        "wildlifeResistance": "Tolerated and eaten by some herbivores; provides forage",
+        "nitrogenFixer": false,
+        "butterflyHost": false
+    },
+    "extra": {
+        "funFacts": [
+            "Broadleaf plantain is considered a beneficial weed in lawns and gardens due to its soil-conditioning properties.",
+            "Its seeds remain viable in soil for many years, aiding in its persistence."
+        ],
+        "links": {
+            "howToUse": "/guides/using-broadleaf-plantain",
+            "funFacts": "/guides/broadleaf-plantain-history"
+        },
+        "images": [
+            "/images/plants/broadleaf-plantain-leaves.jpg",
+            "/images/plants/broadleaf-plantain-seeds.jpg"
+        ]
+    }
+}

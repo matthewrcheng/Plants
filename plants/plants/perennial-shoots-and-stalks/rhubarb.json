@@ -1,0 +1,52 @@
+{
+    "name": "Rhubarb",
+    "slug": "rhubarb",
+    "category": "perennial-shoots-and-stalks",
+    "growing": {
+        "zone": "3-8",
+        "sun": "Full sun preferred, but partial shade tolerated",
+        "water": "Moderate to high; keep soil consistently moist especially during dry periods",
+        "soil": "Neutral pH, well-drained, fertile, rich in organic matter"
+    },
+    "planting": {
+        "height": "2-3 feet",
+        "spacing": "2-3 feet apart, rows 3-4 feet apart",
+        "whenToPlant": "Plant crowns in fall or in early spring while still dormant",
+        "propagation": "Division of crowns; can also be grown from seed but less common for home gardens",
+        "depth": "Plant crowns so buds are about 1-2 inches below soil surface",
+        "companion": [
+            "Mint",
+            "Marigolds",
+            "Onions",
+            "Beets",
+            "Chives",
+            "Beans",
+            "Asparagus",
+            "Strawberries"
+        ],
+        "avoidPlantingNear": [
+            "Melons",
+            "Pumpkins",
+            "Cucumbers",
+            "Tomatoes"
+        ]
+    },
+    "careAndMaintenance": {
+        "pruning": "Remove any seed stalks as soon as they appear to direct energy back into the plant",
+        "overwintering": "Remove all plant debris in fall to reduce pest and disease risk; cover crown with mulch after ground freezes to protect from harsh temperatures"
+    },
+    "harvestingAndUsage": {
+        "whenToHarvest": "Skip harvest in first year to allow establishment; begin in second year when stalks are 12-18 inches long; stop harvesting when stalks become thin (smaller than a finger)",
+        "howToHarvest": "Grasp stalk at base and gently twist and pull away from plant; if necessary, cut cleanly at base with a knife; always leave at least 2 stalks on plant",
+        "preservation": "Stalks can be frozen, canned, or dried for later use",
+        "edibleToxic": "Stalks are edible; leaves are toxic and should not be consumed (contain oxalic acid)"
+    },
+    "ecologicalInfo": {
+        "pollinators": [
+            "Flowers (if allowed to develop) may attract bees and other small insects, but rhubarb is grown for stalks not pollination"
+        ],
+        "wildlifeResistance": [
+            "Generally unbothered by deer and rabbits due to leaf toxicity"
+        ]
+    }
+}

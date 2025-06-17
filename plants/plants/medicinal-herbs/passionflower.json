@@ -1,0 +1,70 @@
+{
+    "name": "Passionflower",
+    "slug": "passionflower",
+    "category": "medicinal-herbs",
+    "growing": {
+        "zone": "6-10 (zone 6 with protection)",
+        "sun": "Full sun to partial shade",
+        "water": "Moderate; keep soil evenly moist but well-drained",
+        "soil": "Fertile, well-draining soil with good organic matter"
+    },
+    "planting": {
+        "height": "Vines can grow 10-20 feet or more",
+        "spacing": "Plant 6-10 feet apart or near a trellis/support",
+        "whenToPlant": "Plant in spring after last frost",
+        "propagation": "By seed, cuttings, or layering",
+        "depth": "Plant seeds about 1/2 inch deep; cuttings planted at similar depth",
+        "companion": [
+            "Corn (vining plant can grow alongside)",
+            "Beans (mutual shade and soil benefits)"
+        ],
+        "avoidPlantingNear": []
+    },
+    "careAndMaintenance": {
+        "pruning": "Prune in late winter or early spring to remove dead or overcrowded growth",
+        "stakingOrSupport": "Requires trellis, arbor, or fence for support",
+        "overwintering": "In colder zones, mulch heavily or grow container plants indoors during winter"
+    },
+    "harvestingAndUsage": {
+        "whenToHarvest": "Harvest ripe fruit when it turns deep purple and falls off naturally; flowers harvested just before fully open for medicinal use",
+        "howToHarvest": "Pick fruit by hand; flowers and leaves harvested by cutting",
+        "preservation": "Fruit can be eaten fresh or made into jams/jellies; leaves and flowers dried for tea",
+        "edibleOrToxic": "Fruit is edible and highly nutritious; leaves and flowers safe for medicinal use; roots and stems should not be consumed",
+        "culinary": "Passion fruit eaten fresh, juiced, or used in desserts and beverages",
+        "medicinal": {
+            "Anxiety and Sleep Aid": "Leaves and flowers traditionally used to reduce anxiety, promote calmness, and improve sleep quality via teas or tinctures.",
+            "Sedative and Nervine": "Acts as a mild sedative and nervine, helping to relieve nervous tension and insomnia.",
+            "Pain Relief": "Sometimes used to ease mild pain such as headaches and menstrual cramps.",
+            "Digestive Support": "Mild digestive aid, soothing stomach discomfort."
+        },
+        "aromatic": "Mildly fragrant flowers contribute subtle scent to teas; also attract pollinators"
+    },
+    "ecologicalInfo": {
+        "pollinators": [
+            "Bees",
+            "Butterflies",
+            "Hummingbirds"
+        ],
+        "wildlifeResistance": "Generally deer-resistant; may attract some herbivorous insects",
+        "nitrogenFixer": false,
+        "butterflyHost": true,
+        "butterflySpecies": [
+            "Gulf Fritillary (Agraulis vanillae)",
+            "Passion Vine Butterfly (Heliconius spp.)"
+        ]
+    },
+    "extra": {
+        "funFacts": [
+            "Passionflower flowers are complex and symbolic, historically inspiring the name due to religious symbolism.",
+            "Passion fruit is native to South America but widely cultivated globally."
+        ],
+        "links": {
+            "howToUse": "/guides/using-passionflower",
+            "funFacts": "/guides/passionflower-history"
+        },
+        "images": [
+            "/images/plants/passionflower-flower.jpg",
+            "/images/plants/passionfruit-fruit.jpg"
+        ]
+    }
+}

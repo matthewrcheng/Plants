@@ -1,0 +1,43 @@
+{
+    "name": "Cherry",
+    "slug": "cherry",
+    "category": "fruit-trees",
+    "growing": {
+      "zone": "5-9 (sweet), 4-9 (sour)",
+      "sun": "Full sun",
+      "water": "Average",
+      "soil": "Well-draining, slightly acidic; hilltop or slope ideal"
+    },
+    "planting": {
+      "height": "15-30 feet",
+      "spacing": "20 feet",
+      "whenToPlant": "Plant rootstock during winter",
+      "propagation": "Grafting",
+      "depth": "Deep planting",
+      "companion": [
+        "Other cherry varieties for cross-pollination (especially for sweet cherries)"
+      ],
+      "avoidPlantingNear": []
+    },
+    "careAndMaintenance": {
+      "pruning": [
+        "Prune during winter (similar to apple and peach)",
+        "Remove weak, diseased, or injured branches",
+        "Remove water sprouts and suckers",
+        "Remove inward, crossing, or upright branches",
+        "Limit the number of branches to maintain airflow and structure"
+      ]
+    },
+    "harvestingAndUsage": {
+      "whenToHarvest": "When cherries reach deep color and can be easily plucked from the tree",
+      "howToHarvest": "Gently pull or twist to release from the stem"
+    },
+    "ecologicalInfo": {
+      "pollinators": [
+        "Sweet cherries require cross-pollination (bees and other pollinators)",
+        "Sour cherries typically self-fertile"
+      ],
+      "wildlifeResistance": "Birds are attracted to the fruit; nets are recommended for protection"
+    }
+  }
+  

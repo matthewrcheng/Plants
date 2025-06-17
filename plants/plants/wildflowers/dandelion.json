@@ -1,0 +1,67 @@
+{
+    "name": "Dandelion",
+    "slug": "dandelion",
+    "category": "wildflowers",
+    "growing": {
+        "zone": "3-10",
+        "sun": "Full sun to partial shade",
+        "water": "Low to moderate; drought-tolerant once established",
+        "soil": "Adaptable; prefers fertile, well-drained soil but grows in poor, compacted soils too"
+    },
+    "planting": {
+        "height": "6-18 inches (depending on conditions)",
+        "spacing": "Let grow naturally or thin to 6-12 inches if cultivating",
+        "whenToPlant": "Any time (self-seeds readily); sow in spring if intentionally growing",
+        "propagation": "Primarily by seed; roots can also regenerate new plants",
+        "depth": "Surface sow or barely cover seeds (~1/8 inch)",
+        "companion": [
+            "Fruit trees (dynamic accumulator)",
+            "Clover",
+            "Comfrey"
+        ],
+        "avoidPlantingNear": []
+    },
+    "careAndMaintenance": {
+        "pruning": "No pruning needed; deadhead if controlling spread",
+        "stakingOrSupport": "None required",
+        "overwintering": "Perennial; no special care needed"
+    },
+    "harvestingAndUsage": {
+        "whenToHarvest": "Leaves: early spring (young leaves less bitter); Flowers: when fully open; Roots: fall for medicinal use",
+        "howToHarvest": "Pick leaves by hand or with scissors; pull flowers; dig roots carefully",
+        "preservation": "Leaves and flowers: dry or freeze; Roots: dry for tea or tinctures",
+        "edibleOrToxic": "Entire plant edible; safe when harvested from clean areas (avoid contaminated soils or sprayed lawns)",
+        "culinary": "Young leaves in salads or sautéed; flowers for fritters, wine, or syrup; roasted roots as coffee substitute",
+        "medicinal": {
+            "Liver & Gallbladder Support": "Roots traditionally used as a detoxifying tonic; supports bile production and liver health.",
+            "Digestive Aid": "Bitters in leaves and roots stimulate appetite and digestion.",
+            "Diuretic": "Known as a natural diuretic (the name 'pissenlit' in French means 'wet the bed').",
+            "Anti-inflammatory & Antioxidant": "Modern studies show potential anti-inflammatory and antioxidant properties."
+        },
+        "aromatic": "Mild earthy aroma; not typically used for fragrance"
+    },
+    "ecologicalInfo": {
+        "pollinators": [
+            "Bees",
+            "Hoverflies",
+            "Butterflies"
+        ],
+        "wildlifeResistance": "Not typically browsed; deer may nibble foliage in absence of other food",
+        "nitrogenFixer": false
+    },
+    "extra": {
+        "funFacts": [
+            "Every part of the dandelion is edible and useful.",
+            "Deep taproots help break up compacted soil and bring nutrients up to the surface.",
+            "Dandelions are one of the first food sources for bees in spring."
+        ],
+        "links": {
+            "howToUse": "/guides/using-dandelion",
+            "funFacts": "/guides/dandelion-folklore"
+        },
+        "images": [
+            "/images/plants/dandelion-plant.jpg",
+            "/images/plants/dandelion-harvest.jpg"
+        ]
+    }
+}

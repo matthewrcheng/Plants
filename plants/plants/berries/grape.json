@@ -1,0 +1,61 @@
+{
+    "name": "Grape",
+    "slug": "grape",
+    "category": "berries",
+    "growing": {
+      "zone": "2-10 (varies by variety; American and French-American more cold-hardy, European prefer warmer zones)",
+      "sun": "Full sun (at least 7-8 hours per day for best fruit production)",
+      "water": "Moderate; drought-tolerant once established but benefits from regular watering during dry spells, especially during fruiting",
+      "soil": "Slightly acidic (pH 5.5-7), deep, well-drained, loose; prefers sandy loam or loamy soil"
+    },
+    "planting": {
+      "height": "Varies by training method; vines can reach 6-12 feet or more when trellised",
+      "spacing": "6-10 feet apart depending on variety and training system",
+      "whenToPlant": "Early spring after the last hard freeze; soak bare roots for 2-3 hours before planting",
+      "propagation": "Usually by dormant cuttings or grafted plants; seeds rarely used due to variability",
+      "depth": "Plant about 1 foot deep; set graft or crown at soil level or just above",
+      "companion": [
+        "Hyssop",
+        "Oregano",
+        "Basil",
+        "Clover (as ground cover)"
+      ],
+      "avoidPlantingNear": [
+        "Nightshades (can increase risk of shared diseases)",
+        "Black walnut (produces juglone which may inhibit grape growth)"
+      ]
+    },
+    "careAndMaintenance": {
+      "pruning": [
+        "Annual pruning is essential; prune in late winter to control vine growth and encourage fruit production",
+        "Remove up to 90% of the previous year's growth, keeping only a few strong canes and renewal spurs"
+      ],
+      "stakingSupport": "Trellis, arbor, or pergola needed to support vines and improve air circulation",
+      "overwintering": "In colder zones, mulch base and protect young vines with burlap or covers to prevent winter injury"
+    },
+    "harvestingAndUsage": {
+      "whenToHarvest": "When grapes are rich in color, plump, and flavorful; they will not continue to ripen once picked",
+      "howToHarvest": "Cut entire clusters with pruning shears to avoid damaging the vine",
+      "preservation": "Fresh eating, juicing, wine, jams, jellies, raisins (drying)"
+    },
+    "ecologicalInfo": {
+      "pollinators": [
+        "Most cultivated varieties are self-fertile; pollinated by wind and insects"
+      ],
+      "wildlifeResistance": [
+        "Birds and mammals such as raccoons may eat fruit; netting or fencing may be necessary"
+      ]
+    },
+    "varieties": {
+      "American": {
+        "description": "Cold-hardy and disease-resistant; commonly used for juice and jelly (e.g., Concord)"
+      },
+      "European": {
+        "description": "Prefers warm, dry climates; prized for winemaking and table grapes (e.g., Thompson Seedless)"
+      },
+      "French-American": {
+        "description": "Hybrids that combine cold-hardiness and disease resistance of American grapes with some flavor qualities of European types"
+      }
+    }
+  }
+  

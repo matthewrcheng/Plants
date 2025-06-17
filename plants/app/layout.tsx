@@ -3,8 +3,8 @@ import Link from 'next/link';
 import type { ReactNode } from 'react';
 
 export const metadata = {
-  title: 'Plant Reference',
-  description: 'A reference site for plants, herbs, veggies, and more.'
+  title: 'Home Gardening Reference',
+  description: 'A reference site for fruits, veggies, herbs, and more.'
 };
 
 export default function RootLayout({ children }: { children: ReactNode }) {

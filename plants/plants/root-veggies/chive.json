@@ -1,0 +1,48 @@
+{
+    "name": "Chives",
+    "slug": "chives",
+    "category": "root-veggies",
+    "growing": {
+      "zone": "3-9",
+      "sun": "Full sun (can tolerate partial shade)",
+      "water": "Moderate; keep soil consistently moist but not waterlogged",
+      "soil": "Slightly acidic, fertile, well-drained soil"
+    },
+    "planting": {
+      "spacing": "Ensure plants are not too crowded; space clumps about 6-12 inches apart",
+      "whenToPlant": "Can be planted anytime during the growing season; best in spring or fall for transplants or divisions",
+      "propagation": "From seed or by dividing mature clumps",
+      "depth": "Plant seeds or divisions at a shallow depth, about 1/4 inch deep",
+      "companion": [
+        "Carrots",
+        "Celery",
+        "Tomatoes",
+        "Peas",
+        "Lettuce"
+      ],
+      "avoidPlantingNear": [
+        "Beans",
+        "Peas",
+        "Asparagus",
+        "Spinach",
+        "Broccoli",
+        "Nightshades",
+        "Strawberries"
+      ]
+    },
+    "careAndMaintenance": {
+      "pruning": "Divide clumps every 2-3 years to maintain vigor; regularly trim to encourage new growth",
+      "general": "Remove flower heads if you don’t want self-seeding; mulch to retain moisture"
+    },
+    "harvestingAndUsage": {
+      "whenToHarvest": "Harvest several times a year, once plants are established and about 6 inches tall",
+      "howToHarvest": "Cut leaves down to the base using scissors or a sharp knife, leaving about 1 inch above soil level to encourage regrowth",
+      "preservation": "Can be dried or frozen for later use"
+    },
+    "ecologicalInfo": {
+      "pollinators": "Flowers attract butterflies and bees",
+      "wildlifeResistance": "Deters many pests and is a beneficial companion plant",
+      "nitrogenFixer": "No"
+    }
+  }
+  

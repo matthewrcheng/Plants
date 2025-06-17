@@ -1,0 +1,56 @@
+{
+    "name": "Raspberry",
+    "slug": "raspberry",
+    "category": "berries",
+    "growing": {
+      "zone": "3-9 (varies slightly by variety)",
+      "sun": "Full sun for best yields, tolerates partial shade",
+      "water": "Moderate to high; consistent moisture is important, especially during fruit development",
+      "soil": "Rich, well-draining, slightly acidic (pH 5.5-6.5); enriched with compost or organic matter"
+    },
+    "planting": {
+      "height": "4-6 feet depending on variety",
+      "spacing": "2-3 feet between plants; 6-8 feet between rows",
+      "whenToPlant": "Early spring while dormant; in mild climates, late fall is also possible",
+      "propagation": "Suckers or root cuttings; raspberries naturally spread by producing new canes from roots",
+      "depth": "Shallow planting; set crown just at or slightly above soil level",
+      "companion": [
+        "Garlic",
+        "Chives",
+        "Marigold",
+        "Tansy"
+      ],
+      "avoidPlantingNear": [
+        "Nightshades (tomatoes, potatoes, peppers — these can spread verticillium wilt)"
+      ]
+    },
+    "careAndMaintenance": {
+      "pruning": [
+        "For summer-fruiting types: prune fruited canes to ground level after harvest; leave strong new canes for next year",
+        "For ever-bearing types: can prune all canes to ground in late winter for single large fall crop, or selectively prune for two harvests"
+      ],
+      "stakingSupport": "Trellis or support recommended to keep canes upright, improve air flow, and ease harvesting"
+    },
+    "harvestingAndUsage": {
+      "whenToHarvest": "When berries are fully colored, plump, and easily detach from the core (receptacle)",
+      "howToHarvest": "Pick gently by hand to avoid bruising; harvest every 2-3 days during peak season",
+      "preservation": "Excellent for fresh eating, freezing, drying, jams, jellies, syrups, baking"
+    },
+    "ecologicalInfo": {
+      "pollinators": [
+        "Self-fertile but benefit from bees and other pollinators for improved fruit size and yield"
+      ],
+      "wildlifeResistance": [
+        "Birds are fond of raspberries; netting may be necessary to protect the crop"
+      ]
+    },
+    "varieties": {
+      "Summer-fruiting": {
+        "description": "Produces berries on second-year canes (floricanes); one large crop in early to mid-summer"
+      },
+      "Ever-bearing": {
+        "description": "Also called fall-bearing or primocane-fruiting; produces two crops — a smaller one in early summer on second-year canes, and a larger one in fall on first-year canes"
+      }
+    }
+  }
+  

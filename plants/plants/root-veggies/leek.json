@@ -1,0 +1,40 @@
+{
+    "name": "Leek",
+    "slug": "leek",
+    "category": "root-veggies",
+    "growing": {
+        "zone": "3-9",
+        "sun": "Full sun (partial shade tolerated)",
+        "water": "Moderate, consistent moisture is key for tender growth",
+        "soil": "Rich, well-draining soil, slightly acidic to neutral pH, high in organic matter"
+    },
+    "planting": {
+        "spacing": "6 inches apart, rows 12-18 inches apart",
+        "whenToPlant": "Start seeds indoors 8-10 weeks before last frost or sow directly outdoors in early spring",
+        "propagation": "Seeds or transplants",
+        "depth": "Plant seedlings deep (up to first leaf) or trench and gradually fill soil to blanch stems",
+        "companion": [
+            "Carrots",
+            "Onions",
+            "Celery",
+            "Beets"
+        ],
+        "avoidPlantingNear": [
+            "Legumes (beans, peas)"
+        ]
+    },
+    "careAndMaintenance": {
+        "pruning": "None typically needed; remove flower stalks if they appear to keep plant tender",
+        "general": "Hill soil around stems or use mulch to blanch and produce longer white stems; weed regularly"
+    },
+    "harvestingAndUsage": {
+        "whenToHarvest": "When stems are at least 1 inch thick, typically late summer to fall depending on planting time",
+        "howToHarvest": "Lift carefully with a fork to avoid damage; trim roots and outer leaves",
+        "preservation": "Store in the fridge for up to 2 weeks; can also be frozen after blanching"
+    },
+    "ecologicalInfo": {
+        "pollinators": "If allowed to flower, leeks attract bees and other beneficial insects",
+        "wildlifeResistance": "Moderately resistant to pests due to onion-like scent",
+        "nitrogenFixer": "No"
+    }
+}

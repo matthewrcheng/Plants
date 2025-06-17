@@ -1,0 +1,35 @@
+{
+    "name": "Green Onion (Scallion)",
+    "slug": "green-onion-scallion",
+    "category": "root-veggies",
+    "growing": {
+        "zone": "6-9",
+        "sun": "Full sun",
+        "water": "Water regularly during dry periods to keep soil evenly moist",
+        "soil": "Slightly acidic, well-drained, fertile soil"
+    },
+    "planting": {
+        "spacing": "4 inches apart",
+        "whenToPlant": "Early spring; can be succession planted every few weeks for continuous harvest",
+        "propagation": "Let flowers dry up and drop seeds naturally or manually collect seeds from dried flowers and scatter",
+        "depth": "Shallow planting; about 1/4 inch deep",
+        "companion": [
+            "Carrots"
+        ],
+        "avoidPlantingNear": []
+    },
+    "careAndMaintenance": {
+        "pruning": "Thin if plants become overcrowded to ensure healthy growth",
+        "general": "Mulch to retain moisture and suppress weeds; remove flower heads if continuous leaf production is desired"
+    },
+    "harvestingAndUsage": {
+        "whenToHarvest": "When stalks are about 6-12 inches tall and pencil-thick",
+        "howToHarvest": "Cut or pull entire plant from soil or snip leaves as needed; can regrow if roots are left intact",
+        "preservation": "Can be stored fresh in the refrigerator or chopped and frozen for later use"
+    },
+    "ecologicalInfo": {
+        "pollinators": "Flowers may attract bees and other beneficial insects if allowed to bloom",
+        "wildlifeResistance": "Deters some pests due to its onion scent",
+        "nitrogenFixer": "No"
+    }
+}

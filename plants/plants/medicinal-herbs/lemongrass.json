@@ -1,0 +1,66 @@
+{
+    "name": "Lemongrass",
+    "slug": "lemongrass",
+    "category": "medicinal-herbs",
+    "growing": {
+      "zone": "9-11 (grown as annual or indoor plant in cooler zones)",
+      "sun": "Full sun",
+      "water": "Moderate; prefers moist, well-drained soil",
+      "soil": "Rich, well-draining soil with good organic matter"
+    },
+    "planting": {
+      "height": "3-6 feet",
+      "spacing": "24 inches apart",
+      "whenToPlant": "Plant after last frost when soil is warm; can start indoors earlier",
+      "propagation": "By division or root cuttings; can also start from seed but less common",
+      "depth": "Plant divisions or root cuttings about 2 inches deep",
+      "companion": [
+        "Basil (both prefer warm growing conditions)",
+        "Tomatoes (lemongrass may help repel pests)"
+      ],
+      "avoidPlantingNear": []
+    },
+    "careAndMaintenance": {
+      "pruning": "Trim stalks regularly to encourage bushier growth and remove dead foliage",
+      "stakingOrSupport": "Not necessary",
+      "overwintering": "In cooler zones, bring indoors or grow as annual; mulch heavily if left outside in borderline zones"
+    },
+    "harvestingAndUsage": {
+      "whenToHarvest": "Harvest stalks when at least 1/2 inch thick and before flowering",
+      "howToHarvest": "Cut stalks near the base with sharp scissors or pruners",
+      "preservation": "Can be used fresh, or chopped and dried; freeze chopped stalks for long-term storage",
+      "edibleOrToxic": "Safe for culinary use; commonly used in teas, soups, and dishes",
+      "culinary": "Widely used in Southeast Asian cuisine; adds citrusy flavor to soups, curries, and teas",
+      "medicinal": {
+        "Digestive Aid": "Used as a soothing tea to relieve indigestion, bloating, and stomach cramps.",
+        "Antimicrobial": "Has natural antimicrobial properties, helpful for minor infections and oral hygiene.",
+        "Anti-inflammatory & Pain Relief": "Traditionally used to reduce inflammation and alleviate headaches and muscle pain.",
+        "Anxiety & Sleep Aid": "Lemongrass tea is calming and often consumed to reduce anxiety and promote sleep."
+      },
+      "aromatic": "Strong lemon scent used in aromatherapy, candles, and natural insect repellents"
+    },
+    "ecologicalInfo": {
+      "pollinators": [
+        "Bees",
+        "Butterflies"
+      ],
+      "wildlifeResistance": "Generally not favored by deer or rabbits due to strong aroma",
+      "nitrogenFixer": false,
+      "butterflyHost": false
+    },
+    "extra": {
+      "funFacts": [
+        "Lemongrass oil is used in perfumes, soaps, and insect repellents.",
+        "It’s often grown in containers for easy overwintering in cooler climates."
+      ],
+      "links": {
+        "howToUse": "/guides/using-lemongrass",
+        "funFacts": "/guides/lemongrass-history"
+      },
+      "images": [
+        "/images/plants/lemongrass-plant.jpg",
+        "/images/plants/lemongrass-stalks.jpg"
+      ]
+    }
+  }
+  

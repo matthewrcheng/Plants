@@ -1,0 +1,69 @@
+{
+    "name": "Lemon Balm",
+    "slug": "lemon-balm",
+    "category": "medicinal-herbs",
+    "growing": {
+      "zone": "4-9",
+      "sun": "Full sun to partial shade (prefers some afternoon shade in hot climates)",
+      "water": "Moderate; prefers evenly moist soil but tolerates short dry spells once established",
+      "soil": "Rich, well-drained soil with good organic matter"
+    },
+    "planting": {
+      "height": "1-3 feet",
+      "spacing": "18-24 inches apart",
+      "whenToPlant": "Spring after danger of frost, or early fall in mild climates",
+      "propagation": "Seeds, division, or softwood cuttings; division is fast and reliable",
+      "depth": "Sow seeds on surface or barely cover (~1/8 inch); divisions at same depth as original plant",
+      "companion": [
+        "Broccoli",
+        "Cabbage",
+        "Tomatoes",
+        "Fruit trees (attracts pollinators)"
+      ],
+      "avoidPlantingNear": []
+    },
+    "careAndMaintenance": {
+      "pruning": "Cut back by half after flowering to encourage fresh growth and prevent legginess",
+      "stakingOrSupport": "Rarely needed; bushy habit",
+      "overwintering": "Hardy in zones 4-9; mulch in cold areas to protect roots"
+    },
+    "harvestingAndUsage": {
+      "whenToHarvest": "Before or at the start of flowering for best flavor and medicinal properties",
+      "howToHarvest": "Snip leaves and stems as needed; avoid cutting more than one-third at a time to allow regrowth",
+      "preservation": "Best used fresh; can be dried (loses some potency) or frozen in ice cubes or oil",
+      "edibleOrToxic": "Entire plant is edible and safe; mild and lemony flavor",
+      "culinary": "Used fresh in salads, desserts, teas, syrups, and to flavor fish and poultry dishes; also used in herb butters and vinegars",
+      "medicinal": {
+        "Calming & Nervous System Support": "Traditionally used to ease anxiety, stress, and mild insomnia; often taken as a tea or tincture.",
+        "Digestive Aid": "Helps relieve indigestion, bloating, and gas; mild antispasmodic effects.",
+        "Antiviral & Immune Support": "Used externally and internally for cold sores (herpes simplex virus); also used to support immune health during colds and flu.",
+        "Cognitive Support": "Historically valued for improving mood and mental clarity."
+      },
+      "aromatic": "Fresh, citrusy scent with sweet lemon undertones; used in potpourri, sachets, and herbal pillows"
+    },
+    "ecologicalInfo": {
+      "pollinators": [
+        "Bees",
+        "Butterflies",
+        "Hoverflies"
+      ],
+      "wildlifeResistance": "Generally deer-resistant due to strong lemon scent",
+      "nitrogenFixer": false
+    },
+    "extra": {
+      "funFacts": [
+        "Lemon balm was called the 'elixir of life' by Paracelsus, a 16th-century physician.",
+        "Historically planted near bee hives to encourage bees to stay and produce honey.",
+        "Its name, Melissa, means 'honeybee' in Greek."
+      ],
+      "links": {
+        "howToUse": "/guides/using-lemon-balm",
+        "funFacts": "/guides/lemon-balm-folklore"
+      },
+      "images": [
+        "/images/plants/lemon-balm-plant.jpg",
+        "/images/plants/lemon-balm-harvest.jpg"
+      ]
+    }
+  }
+  

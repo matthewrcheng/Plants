@@ -1,0 +1,43 @@
+{
+    "name": "Onion",
+    "slug": "onion",
+    "category": "root-veggies",
+    "growing": {
+        "zone": "3-9",
+        "sun": "Full sun",
+        "water": "Moderate; keep soil evenly moist, especially during bulbing phase",
+        "soil": "Loose, well-draining, fertile soil with a neutral to slightly acidic pH"
+    },
+    "planting": {
+        "spacing": "4-6 inches apart, rows 12-18 inches apart",
+        "whenToPlant": "Early spring from sets or seeds; in warmer zones, can be fall-planted",
+        "propagation": "Seeds, sets (small bulbs), or transplants",
+        "depth": "Plant sets 1 inch deep; seeds 1/4 inch deep",
+        "companion": [
+            "Carrots",
+            "Beets",
+            "Lettuce",
+            "Strawberries",
+            "Tomatoes"
+        ],
+        "avoidPlantingNear": [
+            "Beans",
+            "Peas",
+            "Asparagus"
+        ]
+    },
+    "careAndMaintenance": {
+        "pruning": "Not typically required; remove flower stalks if they form to encourage bulb development",
+        "general": "Keep weed-free as onions have shallow roots; mulch to conserve moisture and suppress weeds"
+    },
+    "harvestingAndUsage": {
+        "whenToHarvest": "When tops begin to yellow and fall over",
+        "howToHarvest": "Loosen soil and gently lift bulbs; cure in a dry, airy spot for 2-3 weeks before storing",
+        "preservation": "Store cured bulbs in a cool, dry place; can also be chopped and frozen"
+    },
+    "ecologicalInfo": {
+        "pollinators": "If left to flower, will attract bees and other beneficial insects",
+        "wildlifeResistance": "Scent deters many pests",
+        "nitrogenFixer": "No"
+    }
+}

@@ -1,0 +1,66 @@
+{
+    "name": "Mullein",
+    "slug": "mullein",
+    "category": "medicinal-herbs",
+    "growing": {
+      "zone": "3-9",
+      "sun": "Full sun",
+      "water": "Low to moderate; drought tolerant once established",
+      "soil": "Prefers well-draining soil; tolerates poor, rocky soils"
+    },
+    "planting": {
+      "height": "3-6 feet",
+      "spacing": "18-24 inches apart",
+      "whenToPlant": "Sow seeds in spring or fall; seeds need light to germinate so surface sow",
+      "propagation": "Primarily by seed; can self-seed readily",
+      "depth": "Surface sow, do not cover seeds",
+      "companion": [
+        "Comfrey (both benefit from similar growing conditions)",
+        "Lavender (can share well-draining soil preferences)"
+      ],
+      "avoidPlantingNear": []
+    },
+    "careAndMaintenance": {
+      "pruning": "Remove spent flower stalks to prevent unwanted self-seeding",
+      "stakingOrSupport": "Usually not needed; tall flower stalks may benefit from staking in windy areas",
+      "overwintering": "Perennial in warmer zones; biennial in colder zones, often self-seeds to maintain presence"
+    },
+    "harvestingAndUsage": {
+      "whenToHarvest": "Harvest leaves before flowering for medicinal use; flower tops collected when in bloom",
+      "howToHarvest": "Pick mature leaves and flowers during dry weather; leaves can be harvested multiple times",
+      "preservation": "Air dry leaves and flowers in a shaded, well-ventilated area; store in airtight containers",
+      "edibleOrToxic": "Non-toxic; leaves are edible when cooked but are very hairy and can irritate the throat if eaten raw",
+      "culinary": "Leaves are generally not used due to texture but young leaves can be cooked like spinach",
+      "medicinal": {
+        "Respiratory Support": "Traditionally used as a remedy for coughs, bronchitis, and congestion. Leaves and flowers are used in teas, tinctures, or infused oils to soothe the respiratory tract and reduce inflammation.",
+        "Anti-inflammatory": "Applied topically in infused oils or salves to soothe skin irritations, burns, wounds, and hemorrhoids due to its anti-inflammatory and demulcent properties.",
+        "Ear Infections": "Infused oils of mullein flowers are sometimes used as ear drops for earache relief.",
+        "Diuretic": "Has mild diuretic properties, supporting kidney health and detoxification."
+      },
+      "aromatic": "Mild, slightly herbal scent; not strongly aromatic but pleasant when dried"
+    },
+    "ecologicalInfo": {
+      "pollinators": [
+        "Bees",
+        "Butterflies",
+        "Moths"
+      ],
+      "wildlifeResistance": "Generally avoided by deer and rabbits due to leaf texture",
+      "nitrogenFixer": false
+    },
+    "extra": {
+      "funFacts": [
+        "Mullein's tall flower spikes make it a striking garden plant and important nectar source.",
+        "The dense, woolly leaves were historically used as makeshift bandages or candle wicks."
+      ],
+      "links": {
+        "howToUse": "/guides/using-mullein",
+        "funFacts": "/guides/mullein-history"
+      },
+      "images": [
+        "/images/plants/mullein-plant.jpg",
+        "/images/plants/mullein-flowers.jpg"
+      ]
+    }
+  }
+  

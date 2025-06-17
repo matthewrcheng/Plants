@@ -1,0 +1,62 @@
+{
+    "name": "Elderflower / Elderberry",
+    "slug": "elderflower-elderberry",
+    "category": "medicinal-herbs",
+    "growing": {
+        "zone": "3-9",
+        "sun": "Full sun to partial shade",
+        "water": "Moderate; prefers consistently moist soil but tolerates some drought once established",
+        "soil": "Rich, well-drained soil with good organic content; tolerates clay and sandy soils"
+    },
+    "planting": {
+        "height": "5-12 feet (can grow larger as a shrub or small tree)",
+        "spacing": "6-10 feet between plants",
+        "whenToPlant": "Spring or fall",
+        "propagation": "Softwood cuttings, hardwood cuttings, or seeds (cuttings are most reliable)",
+        "depth": "Plant at the same depth as in the nursery pot; cover seeds lightly (~1/8 inch)",
+        "companion": [
+            "Yarrow",
+            "Bee balm",
+            "Comfrey"
+        ],
+        "avoidPlantingNear": []
+    },
+    "careAndMaintenance": {
+        "pruning": "Prune in late winter or early spring to remove dead or damaged wood and encourage new growth; thin older stems for better air circulation",
+        "stakingOrSupport": "Not typically needed; elder grows as a sturdy shrub",
+        "overwintering": "Hardy in its zones; mulch young plants in colder regions for added protection"
+    },
+    "harvestingAndUsage": {
+        "whenToHarvest": "Flowers in late spring or early summer when fully open; berries in late summer to early fall when fully ripe and dark purple/black",
+        "howToHarvest": "Snip flower heads gently; cut berry clusters and strip berries off at home",
+        "preservation": "Dry flowers for tea or cordials; freeze or dry berries or use them fresh in recipes",
+        "edibleOrToxic": "Flowers and cooked berries are safe; raw berries can cause nausea and digestive upset; stems, leaves, bark, and roots are toxic due to cyanogenic glycosides",
+        "culinary": "Flowers used in cordials, syrups, fritters, and teas; berries used (cooked) in syrups, jams, jellies, wine, pies",
+        "medicinal": "Flowers: used in teas for colds, fevers, and sinus relief; berries: antioxidant-rich, supports immune health, used in syrups for colds and flu; traditional use for inflammation and as a diuretic",
+        "aromatic": "Flowers have a sweet, honey-like fragrance; berries have a subtle fruity aroma when cooked"
+    },
+    "ecologicalInfo": {
+        "pollinators": [
+            "Bees",
+            "Butterflies",
+            "Hoverflies"
+        ],
+        "wildlifeResistance": "Not highly deer-resistant; birds are attracted to the berries",
+        "nitrogenFixer": false
+    },
+    "extra": {
+        "funFacts": [
+            "Elder was traditionally planted near homes as protection against evil spirits.",
+            "In folklore, elder trees were believed to be inhabited by protective spirits.",
+            "Elderberry wine and elderflower cordial are classic European recipes."
+        ],
+        "links": {
+            "howToUse": "/guides/using-elderflower-elderberry",
+            "funFacts": "/guides/elder-folklore"
+        },
+        "images": [
+            "/images/plants/elderflower.jpg",
+            "/images/plants/elderberry.jpg"
+        ]
+    }
+}

@@ -1,0 +1,47 @@
+{
+    "name": "Potato",
+    "slug": "potato",
+    "category": "root-veggies",
+    "growing": {
+      "zone": "3-10",
+      "sun": "Full sun",
+      "water": "Moderate to high; keep soil consistently moist, especially during tuber formation",
+      "soil": "Acidic, fertile, loose, and well-drained soil; avoid compacted or waterlogged soils"
+    },
+    "planting": {
+      "how": "Plant in 6-inch deep holes, 1-foot trenches, or large pots/containers with good drainage",
+      "spacing": "16 inches apart within rows",
+      "whenToPlant": "Plant once soil is workable in early spring or late fall in milder climates",
+      "propagation": "Propagate using seed potatoes (pieces of potato with at least one eye)",
+      "depth": "Deep planting, with hilling of soil over emerging shoots as they grow",
+      "companion": [
+        "Beans",
+        "Peas",
+        "Lettuce",
+        "Spinach",
+        "Cabbage"
+      ],
+      "avoidPlantingNear": [
+        "Carrots",
+        "Turnips",
+        "Cucumbers",
+        "Other nightshades (tomatoes, eggplants, peppers)"
+      ]
+    },
+    "careAndMaintenance": {
+      "hilling": "Periodically mound soil up over the lower stems to protect developing tubers from sunlight and increase yield",
+      "pruning": "Generally not required; remove diseased or damaged foliage if needed"
+    },
+    "harvestingAndUsage": {
+      "whenToHarvest": "Harvest when foliage begins to die back and yellow, before the first major frost",
+      "howToHarvest": "Harvest on a dry day; stop watering in advance to let tubers dry and skins toughen; gently dig up tubers with a fork to avoid damage",
+      "preservation": "Cure in a cool, dark, well-ventilated place for 1-2 weeks, then store in a dark, cool area; avoid exposure to light to prevent greening",
+      "edibleOrToxic": "Potato plants are toxic (leaves, stems, green tubers); green coloring on tubers indicates solanine, which is also toxic"
+    },
+    "ecologicalInfo": {
+      "pollinators": "Potato flowers can attract bees, but tuber production does not depend on pollination",
+      "wildlifeResistance": "Foliage is generally avoided by deer and larger animals; tubers may be targeted by rodents",
+      "nitrogenFixer": "No"
+    }
+  }
+  

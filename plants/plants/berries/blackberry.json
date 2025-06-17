@@ -1,0 +1,57 @@
+{
+    "name": "Blackberry",
+    "slug": "blackberry",
+    "category": "berries",
+    "growing": {
+      "zone": "4-10 (depending on variety)",
+      "sun": "Full sun",
+      "water": "Moderate; consistent watering during fruit development",
+      "soil": "Acidic (pH 5.5-7), fertile, well-draining soil; avoid heavy clay unless amended"
+    },
+    "planting": {
+      "height": "3-10 feet depending on variety and training",
+      "spacing": "3-6 feet apart for plants; rows spaced 6-8 feet apart",
+      "whenToPlant": "Plant bare-root or container plants in early spring, or late fall in mild regions",
+      "propagation": "Tip layering, root cuttings, or suckers from established plants",
+      "depth": "Shallow — plant at the same depth as in the nursery container or just slightly deeper for bare-root",
+      "companion": [
+        "Other domestic blackberry plants for better yields and maintenance"
+      ],
+      "avoidPlantingNear": [
+        "Wild blackberries (can harbor pests and diseases)"
+      ]
+    },
+    "careAndMaintenance": {
+      "pruning": [
+        "Remove dead or diseased canes in late winter or early spring",
+        "After fruiting, cut fruited canes to the ground",
+        "Thin out weaker new canes to encourage stronger growth"
+      ],
+      "stakingSupport": "Trellis or support system recommended for trailing and semi-erect types to keep canes off the ground and improve air circulation"
+    },
+    "harvestingAndUsage": {
+      "whenToHarvest": "When berries are fully black, glossy, and plump; they should pull easily from the stem with minimal force",
+      "howToHarvest": "Pick gently by hand to avoid crushing; harvest every few days during the fruiting season",
+      "preservation": "Can be eaten fresh, frozen, dried, or used in jams, jellies, syrups, and baked goods"
+    },
+    "ecologicalInfo": {
+      "pollinators": [
+        "Self-fertile, but bees and other pollinators help increase yield and berry size"
+      ],
+      "wildlifeResistance": [
+        "Birds and small mammals enjoy the fruit; netting may be necessary to protect crops"
+      ]
+    },
+    "varieties": {
+      "trailingThornless": {
+        "description": "Vigorous canes that require trellising; large sweet berries; e.g., 'Black Satin', 'Chester Thornless'"
+      },
+      "erectThorny": {
+        "description": "Sturdy upright canes that may not require support; smaller, often more flavorful berries; e.g., 'Kiowa', 'Cherokee'"
+      },
+      "erectThornless": {
+        "description": "Upright habit with no thorns; easier maintenance and harvest; good for home gardens; e.g., 'Navaho', 'Apache'"
+      }
+    }
+  }
+  
