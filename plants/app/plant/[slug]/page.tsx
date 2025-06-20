@@ -1,6 +1,7 @@
 import fs from 'fs';
 import path from 'path';
 import { use } from 'react';
+import React from 'react';
 
 export interface PlantData {
   name: string;
@@ -31,10 +32,11 @@ export interface PlantData {
   harvestingAndUsage?: {
     whenToHarvest?: string;
     howToHarvest?: string;
+    varieties?: any;
     preservation?: string;
     edibleOrToxic?: string;
     culinary?: string;
-    medicinal?: string;
+    medicinal?: object;
     aromatic?: string;
   };
   ecologicalInfo?: {
@@ -53,7 +55,7 @@ export default function PlantPage(props: { params: Params }) {
 
   if (!plant) {
     return (
-      <div className="text-center text-red-600">
+      <div className="text-center text-red-600 p-8">
         <h1 className="text-2xl font-bold">Plant not found</h1>
       </div>
     );
@@ -65,15 +67,26 @@ export default function PlantPage(props: { params: Params }) {
     if (entries.length === 0) return null;
 
     return (
-      <section className="space-y-1">
-        <h2 className="text-xl font-semibold text-green-700">{title}</h2>
-        <ul className="list-disc ml-6">
-          {entries.map(([key, value]) => (
-            <li key={key}>
-              <strong>{formatLabel(key)}:</strong>{' '}
-              {Array.isArray(value) ? value.join(', ') : value}
-            </li>
-          ))}
+      <section className="bg-green-50 rounded-xl shadow p-4 space-y-2">
+        <h2 className="text-2xl font-semibold text-green-700">{title}</h2>
+        <ul className="list-disc ml-6 text-green-900">
+        {entries.map(([key, value]) => (
+          <li key={key}>
+            <span className="font-medium">{getIcon(key)} {formatLabel(key)}:</span>{' '}
+            {typeof value === 'string'
+              ? value
+              : (
+                <ul className="list-circle ml-4">
+                  {Object.entries(value).map(([subKey, subVal]) => (
+                    <li key={subKey}>
+                      <span className="font-medium">{formatLabel(subKey)}:</span> {subVal}
+                    </li>
+                  ))}
+                </ul>
+              )
+            }
+          </li>
+        ))}
         </ul>
       </section>
     );
@@ -84,10 +97,41 @@ export default function PlantPage(props: { params: Params }) {
       .replace(/([A-Z])/g, ' $1')
       .replace(/^./, (s) => s.toUpperCase());
 
+  const getIcon = (key: string): string => {
+    const map: Record<string, string> = {
+      sun: '🌞',
+      water: '💧',
+      soil: '🌱',
+      zone: '📍',
+      spacing: '📏',
+      height: '📏',
+      whenToPlant: '📅',
+      propagation: '🌱',
+      depth: '⬇️',
+      pruning: '✂️',
+      stakingOrSupport: '🪢',
+      overwintering: '❄️',
+      whenToHarvest: '⏰',
+      howToHarvest: '✋',
+      preservation: '🥫',
+      edibleOrToxic: '⚠️',
+      culinary: '🍴',
+      medicinal: '💊',
+      aromatic: '🌸',
+      companion: '🤝',
+      avoidPlantingNear: '🚫',
+      pollinators: '🐝',
+      wildlifeResistance: '🦌',
+      nitrogenFixer: '🌿'
+    };
+    return map[key] || '';
+  };
+
   return (
-    <div className="space-y-4">
-      <h1 className="text-3xl font-bold text-green-800">{plant.name}</h1>
-      {plant.description && <p>{plant.description}</p>}
+    <div className="max-w-3xl mx-auto p-6 space-y-6">
+      <h1 className="text-4xl font-bold text-green-800">{plant.name}</h1>
+      <p className="italic text-gray-600">Category: {plant.category}</p>
+      {plant.description && <p className="text-green-900">{plant.description}</p>}
 
       {renderSection('Growing', plant.growing)}
       {renderSection('Planting', plant.planting)}
