@@ -77,7 +77,7 @@ export default function PlantPage(props: { params: Params }) {
               ? value
               : (
                 <ul className="list-circle ml-4">
-                  {Object.entries(value).map(([subKey, subVal]) => (
+                  {Object.entries(value as Record<string, string>).map(([subKey, subVal]) => (
                     <li key={subKey}>
                       <span className="font-medium">{formatLabel(subKey)}:</span> {subVal}
                     </li>
